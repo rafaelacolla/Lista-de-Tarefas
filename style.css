@@ -84,3 +84,34 @@ h1 {
     font-size: 18px;
     margin-left: 10px;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;          /* centraliza horizontalmente todo o conteúdo */
+       
+}
+
+main {
+  flex: 1;                      /* faz o conteúdo principal crescer para ocupar espaço */
+  width: 100%;                  /* ocupa toda largura disponível */
+  max-width: 800px;             /* opcional, para limitar a largura máxima */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.app-footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px 0;
+ text-align: center;  
+ background-color: blue;
+}
